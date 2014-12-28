@@ -35,7 +35,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Get the TextView which will be populated with the Dictionary ContentProvider data.
+        // Get the ListView which will be populated with the Dictionary ContentProvider data.
         ListView dictListView = (ListView) findViewById(R.id.dictionary_list_view);
 
         // Get the ContentResolver which will send a message to the ContentProvider
